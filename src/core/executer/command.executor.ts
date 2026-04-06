@@ -1,5 +1,5 @@
 import { IStreamLogger } from "../handlers/steam-logger.interface";
-import { ChildProcessWithoutNullStreams } from "node:child_process";
+import { type ChildProcessWithoutNullStreams } from "node:child_process";
 import { ICommandExec } from "./command.types";
 
 export abstract class CommandExecutor<Input> {
