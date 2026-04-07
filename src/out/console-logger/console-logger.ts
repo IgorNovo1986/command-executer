@@ -1,6 +1,6 @@
 import { IStreamLogger } from "../../core/handlers/steam-logger.interface";
 
-class ConsoleLogger implements IStreamLogger {
+export class ConsoleLogger implements IStreamLogger {
 
     private static logger: ConsoleLogger
     public static getInstance() {

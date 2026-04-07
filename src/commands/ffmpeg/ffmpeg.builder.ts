@@ -5,7 +5,7 @@ export class FfmpegBuilder {
     private option: Map<string, string> = new Map()
 
     constructor() {
-        this.option.set('-c:v', 'libX264')
+        this.option.set('-c:v', 'libx264')
     }
 
     input(inputPath: string): this {
