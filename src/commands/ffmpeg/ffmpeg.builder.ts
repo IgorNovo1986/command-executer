@@ -13,7 +13,7 @@ export class FfmpegBuilder {
         return this
     }
 
-    setVideoSize(width: string, height: string): this {
+    setVideoSize(width: number, height: number): this {
         this.option.set('-s', `${width}x${height}`)
         return this
     }
